@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/test_MSiM.dir/testing/main.cpp.o  -o bin/test_MSiM  -L/home/paco/MSiM/third_party/SFML/lib -Wl,-rpath,/home/paco/MSiM/third_party/SFML/lib libMSiM.a ../third_party/Box2D_v2.1.2/Box2D/Build/Box2D/libBox2D.a -lsfml-graphics -lsfml-window -lsfml-system 
