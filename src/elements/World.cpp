@@ -576,7 +576,7 @@ using namespace std;
 
 		if (nCollisions < nWCollisions) {
 
-			for (size_t i = nCollisions; i < nWCollisions; ++i) {
+			for (size_t i = nCollisions; i < nWCollisions; i++) {
 
 				CollisionAux c = worldCollisions[i];
 
@@ -671,7 +671,7 @@ using namespace std;
 
 		cout << positionsTarget[0].getX() << "  " << positionsTarget[0].getY() << endl;
 
-		for (size_t i = 0; i < positionsTarget.size() - 1; ++i) {
+		for (size_t i = 0; i < positionsTarget.size() - 1; i++) {
 
 				float x1 = positionsTarget[i].getX();
 				float y1 = -positionsTarget[i].getY();
